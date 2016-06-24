@@ -46,11 +46,21 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'L9'
-Plugin 'git://git.wincent.com/command-t.git'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'ascenator/L9', {'name': 'newL9'}
+Plugin 'scrooloose/nerdtree' " tree view, help nerdtree
+Plugin 'tpope/vim-fugitive' " git wrapper, help fugitive
+Plugin 'scrooloose/syntastic' " syntax check, help syntastic
+Plugin 'taglist.vim' " tag list for ctags, help taglist
+Plugin 'bling/vim-airline' " tab
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+" Setting
+let g:airline#extensions#tabline#enabled = 1
+
+" KeyMapping
+map <C-n> :NERDTreeToggle<CR>
+map <C-m> :TlistToggle<CR>
+map <C-h> :bp<CR>
+map <C-l> :bn<CR>
