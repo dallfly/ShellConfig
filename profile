@@ -11,5 +11,5 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 
 # Android SDK
-export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH
-export PATH=$HOME/Library/Android/sdk/build-tools/21.1.2:$PATH
+# export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH
+# export PATH=$HOME/Library/Android/sdk/build-tools/21.1.2:$PATH

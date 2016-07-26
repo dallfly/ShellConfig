@@ -60,6 +60,7 @@ filetype plugin indent on    " required
 let g:airline#extensions#tabline#enabled = 1
 
 " KeyMapping
+nnoremap <F3> :set hlsearch!<CR>
 map <C-n> :NERDTreeToggle<CR>
 map <C-m> :TlistToggle<CR>
 map <C-h> :bp<CR>
