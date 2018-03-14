@@ -1,7 +1,5 @@
 #!/bin/bash
 
--rw-r--r--   1 dannel  staff   319  2  8 10:56 zshrc
-
 # link
 rm $HOME/.bashrc
 ln -s $PWD/bashrc $HOME/.bashrc
