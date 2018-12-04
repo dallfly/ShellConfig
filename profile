@@ -11,7 +11,8 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 
 # Android SDK
-export PATH=$HOME/AndroidSDK/platform-tools:$PATH
+export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH
+
 
 # RVM
 export PATH="$PATH:$HOME/.rvm/bin"
