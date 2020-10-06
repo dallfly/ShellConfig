@@ -6,8 +6,8 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 
 # Google Cloud SDK
-if [ -f '/Users/sd/dannel/GoogleCloudSDK/path.zsh.inc' ]; then . '/Users/sd/dannel/GoogleCloudSDK/path.zsh.inc'; fi
-if [ -f '/Users/sd/dannel/GoogleCloudSDK/completion.zsh.inc' ]; then . '/Users/sd/dannel/GoogleCloudSDK/completion.zsh.inc'; fi
+if [ -f '/Users/dannel/GoogleCloudSDK/path.zsh.inc' ]; then . '/Users/dannel/GoogleCloudSDK/path.zsh.inc'; fi
+if [ -f '/Users/dannel/GoogleCloudSDK/completion.zsh.inc' ]; then . '/Users/dannel/GoogleCloudSDK/completion.zsh.inc'; fi
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
