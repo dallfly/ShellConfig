@@ -1,9 +1,11 @@
 [user]
 	name = Dannel Hsu
-	email = dallfly@gmail.com
+	email = dannel_hsu@uni.com.tw
 [core]
 	editor = vim
 [push]
 	default = matching
 [svn]
 	rmdir = true
+[color]
+	ui = auto

@@ -1,13 +1,15 @@
 # User Bin
 export PATH=$HOME/bin:$PATH
 
+# Composer
+export PATH=$HOME/.composer/vendor/bin:$PATH
+
 # HomeBrew
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 
-# Google Cloud SDK
-if [ -f '/Users/dannel/GoogleCloudSDK/path.zsh.inc' ]; then . '/Users/dannel/GoogleCloudSDK/path.zsh.inc'; fi
-if [ -f '/Users/dannel/GoogleCloudSDK/completion.zsh.inc' ]; then . '/Users/dannel/GoogleCloudSDK/completion.zsh.inc'; fi
+# Java
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
@@ -17,3 +19,6 @@ export NVM_DIR="$HOME/.nvm"
 # RVM
 export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# plenv
+if which plenv > /dev/null; then eval "$(plenv init - zsh)"; fi
